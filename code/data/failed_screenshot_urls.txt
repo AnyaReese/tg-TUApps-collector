@@ -1,0 +1,2 @@
+截图失败的URL列表 (索引	URL):
+456	https://biz.chosun.com/stock/finance/2025/04/16/FGW2OIC2IFC2VOMCPDEUE2BUPI/
