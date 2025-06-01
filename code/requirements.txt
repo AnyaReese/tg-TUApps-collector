@@ -1,0 +1,7 @@
+paddleocr==3.0.0
+Requests==2.32.3
+selenium==4.33.0
+SocksiPy_branch==1.01
+telethon==1.40.0
+tqdm==4.67.1
+paddlepaddle==3.0.0
