@@ -126,9 +126,9 @@ if __name__ == "__main__":
             match = re.search(r"\[([0-9]+)\]....", file.name)
             number = match.group(1)
             num = int(number)
-            if num >= 1938:   # 上界
+            if num >= 1940:   # 上界
                 break 
-            if num >= 1932:    # 下届
+            if num >= 1938:    # 下届
                 url = urls[num]
                 ocr_result = ocr_recognize_text(f"./data/others/{file.name}")
                 keywords = extract_keywords_links(ocr_result,number)
