@@ -117,7 +117,6 @@ if __name__ == "__main__":
         counting_values = [item.get("counting", -1) for item in results.values() if "counting" in item]
         if counting_values:
             times = max(counting_values) + 1
-    
     files = [file for file in path.iterdir() if file.is_file()]
     files_sorted = sorted(files, key=extract_number)
     for file in files_sorted:
@@ -126,9 +125,9 @@ if __name__ == "__main__":
             match = re.search(r"\[([0-9]+)\]....", file.name)
             number = match.group(1)
             num = int(number)
-            if num >= 1940:   # 上界
+            if num >= 1963:   # 上界
                 break 
-            if num >= 1938:    # 下届
+            if num >= 1940:    # 下届
                 url = urls[num]
                 ocr_result = ocr_recognize_text(f"./data/others/{file.name}")
                 keywords = extract_keywords_links(ocr_result,number)

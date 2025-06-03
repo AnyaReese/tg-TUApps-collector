@@ -9,5 +9,5 @@ __pycache__
 *.pyz
 .venv
 imgs/
-*.png
+code/data/**/*.png
 
