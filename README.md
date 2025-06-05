@@ -19,9 +19,6 @@ lab2/
 ├── code/
 │   ├── crawler.py                 # Telegram data crawler (Telethon)
 │   ├── data/                      # Processed data and results
-│       ├── url.csv    # Output from crawler.py, input for downloader_analyzer.py
-│       ├── 300KeyWord.txt     # General keywords for searching channels via bots
-│       ├── bot.txt            # Initial bot usernames for crawling
-│       ├── readme.md          # readme
+
 └── topic.md                       # Project assignment description
 ```
